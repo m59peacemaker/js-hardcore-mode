@@ -11,10 +11,7 @@ gulp.task('js-hardcore-mode', function() {
       .pipe(jshint.reporter('fail'))
       .on('error', function() {
         console.log('GAME OVER.');
-        return gulp.src([
-          'src/**/*',
-          'build/**/*'
-        ])
+        return gulp.src('**/*')
           .pipe(clean())
         ;
       })
