@@ -1,0 +1,22 @@
+{
+  "name": "javascript-hardcore-mode",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [],
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.0",
+    "gulp-clean": "^0.3.0",
+    "gulp-jshint": "^1.6.3"
+  }
+}
