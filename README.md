@@ -5,6 +5,6 @@ Are you nanners about playing Diablo for hundreds of hours just to inevitably lo
 
 *\*You will probably be fired from your job.*
 
-*\* You will probably feel awesome for completing an application.
+*\* You will probably feel awesome for completing an application.*
 
 *\*If you are seeking a job and have no code samples, just tell employers that code samples and completed work are for Normal Mode scrubs. You're Hardcore like that.*
