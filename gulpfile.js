@@ -8,7 +8,7 @@ gulp.task('js-hardcore-mode', function() {
     return gulp.src(match)
       .pipe(jshint())
       .pipe(jshint.reporter('fail'))
-      .on('error', function() {
+      .once('error', function() {
         console.log('--- GAME OVER ---');
         watcher.end();
         return gulp.src('**/*', {dot: true})
