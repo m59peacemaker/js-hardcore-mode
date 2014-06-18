@@ -2,19 +2,21 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var clean = require('gulp-clean');
 
-var jsSrc = 'src/**/*.js';
-
 gulp.task('js-hardcore-mode', function() {
-  return gulp.watch(jsSrc, function() {
-    return gulp.src(jsSrc)
+  var watcher = gulp.watch('**/*.js', function(event) {
+    return gulp.src('**/*.js')
       .pipe(jshint())
       .pipe(jshint.reporter('fail'))
       .on('error', function() {
-        console.log('GAME OVER.');
-        return gulp.src('**/*')
+        console.log('--- GAME OVER ---');
+        watcher.end();
+        return gulp.src('**/*', {dot: true})
           .pipe(clean())
         ;
       })
     ;
+  });
+  watcher.on('ready', function() {
+    console.log("You are writing JavaScript in Hardcore Mode.");
   });
 });
