@@ -3,7 +3,7 @@ var jshint = require('gulp-jshint');
 var clean = require('gulp-clean');
 
 gulp.task('js-hardcore-mode', function() {
-  var match = ['**/*.js', '!node_modules'];
+  var match = ['**/*.js', '!node_modules/**/*.js'];
   var watcher = gulp.watch(match, function() {
     return gulp.src(match)
       .pipe(jshint())
