@@ -1,7 +1,14 @@
-JavaScript Hardcore Mode
-===
+# JavaScript Hardcore Mode
 
-Are you nanners about playing Diablo for hundreds of hours just to inevitably lose your level 92 barb forever? Now you can enjoy the same experience with your JavaScript projects! Just include the gulp task `js-hardcore-mode` from `gulpfile.js` and run it with `gulp js-hardcore-mode` before you begin coding. When jshint detects a problem with your code, **your entire project will be instantly erased!** Hardcore!
+Are you nanners about playing Diablo for hundreds of hours just to inevitably lose your level 92 barb forever? Now you can enjoy the same experience with your JavaScript projects! When jshint detects a problem with your code, **your entire project will be instantly erased!** Hardcore!
+
+## Gulp
+
+Include the gulp task `js-hardcore-mode` from `gulpfile.js` and run it with `gulp js-hardcore-mode`.
+
+## Grunt
+
+Include the configurations/tasks from `Gruntfile.js` and run `grunt js-hardcore-mode`.
 
 *\*You will probably be fired from your job.*
 

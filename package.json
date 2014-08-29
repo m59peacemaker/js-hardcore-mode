@@ -15,6 +15,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
     "gulp": "^3.8.0",
     "gulp-clean": "^0.3.0",
     "gulp-jshint": "^1.6.3"
