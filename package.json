@@ -1,17 +1,23 @@
 {
-  "name": "javascript-hardcore-mode",
+  "name": "js-hardcore-mode",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Johnny Hauser",
+    "email": "johnnyhauser@gmail.com"
   },
-  "keywords": [],
-  "private": "true",
+  "keywords": [
+    "js",
+    "JavaScript",
+    "hardcore",
+    "diablo",
+    "barbarian",
+    "game",
+    "over"
+  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/m59peacemaker/js-hardcore-mode"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
