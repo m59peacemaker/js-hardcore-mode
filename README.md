@@ -10,8 +10,8 @@ Include the gulp task `js-hardcore-mode` from `gulpfile.js` and run it with `gul
 
 Include the configurations/tasks from `Gruntfile.js` and run `grunt js-hardcore-mode`.
 
-*\*You will probably be fired from your job.*
+**You will probably be fired from your job.*
 
-*\*You will probably feel awesome for completing an application.*
+**You will probably feel awesome for completing an application.*
 
-*\*If you are seeking a job and have no code samples, just tell employers that code samples and completed work are for Normal Mode scrubs. You're Hardcore like that.*
+**If you are seeking a job and have no code samples, just tell employers that code samples and completed work are for Normal Mode scrubs. You're Hardcore like that.*
